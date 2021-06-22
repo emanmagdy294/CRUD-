@@ -37,7 +37,7 @@ function addProduct() {
   }
   else
   {
-    window.alert("sorry  ");
+    window.alert("Please enter the name start Uppercase & price 1 : 1000 & product category just tv or mobil or iphone or computer");
   }
   }
    
