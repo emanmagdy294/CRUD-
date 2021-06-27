@@ -17,21 +17,24 @@
 </head>
 
 <body>
+  <section class=" container" >
+
     <div class=" w-75 m-auto py-5">
+        <h1 class=" text-center text-secondary py-5"> CRUD SYSTEM </h1>
 
         <div class=" form-group">
             <label for="productName"> productName</label>
-            <input class=" form-control" type=" text " id="productName">
+            <input class=" form-control" type=" text " id="productName" placeholder="start Uppercase" >
         </div>
 
         <div class=" form-group">
             <label for="productPrice"> productPrice</label>
-            <input class=" form-control" type="number " id="productPrice">
+            <input class=" form-control" type="number " id="productPrice" placeholder="1:1000">
         </div>
 
         <div class=" form-group">
             <label for="productCategory"> productCategory</label>
-            <input class=" form-control" type=" text " id="productCategory">
+            <input class=" form-control" type=" text " id="productCategory" placeholder="enter tv or mobile or iphone or computer ">
         </div>
 
         <div class=" form-group">
@@ -46,8 +49,8 @@
     <div class=" w-75 m-auto py-3">
         <input onkeyup="searchProduct(this.value)" type="text" class=" form-control w-75 m-auto" placeholder=" search ....." id="searchInput">
 
-        <table class=" table my-5">
-            <thead>
+        <table class=" table my-5 w-100">
+            <thead >
                 <th>Index</th>
                 <th>productName</th>
                 <th>productPrice</th>
@@ -102,7 +105,7 @@
           </div>
         </div>
       </div>
-
+</section>
     <script src="crud.js"></script>
 </body>
 
